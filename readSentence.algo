@@ -1,0 +1,17 @@
+ALGORITHM read_sentence
+VAR
+    sentence: STRING := "welcome to my first algo";
+    count : INTEGER := 0;
+    wordCount : INTEGER := 0 ;
+    vowelCount : INTEGER := 0 ;
+BEGIN
+    for i in sentence.length STEP step Do 
+        count := count + i 
+        if (sentence[i] = ' ') then
+            wordCount := wordCount + i
+        END if
+        if (sentence[i] == 'a' or sentence[i] == 'e' or sentence[i] == 'i' or sentence[i] == 'o' or sentence[i] == 'u' sentence[i] == 'y')
+            vowelCount := vowelCount + i
+        END if
+    END for   
+END
